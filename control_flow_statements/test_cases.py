@@ -2,189 +2,189 @@ test_cases = {
     "taskOne": [
         {
             "input": [-1],
-            "output": -1
+            "expected": -1
         },
         {
             "input": [0],
-            "output": 1
+            "expected": 1
         },
         {
             "input": [9],
-            "output": 10
+            "expected": 10
         },
         {
             "input": [3.14],
-            "output": 4.14
+            "expected": 4.14
         },
         {
             "input": [-5],
-            "output": -5
+            "expected": -5
         },
     ],
     "taskTwo": [
         {
             "input": [4],
-            "output": 5
+            "expected": 5
         },
         {
             "input": [-1],
-            "output": -3
+            "expected": -3
         },
         {
             "input": [10],
-            "output": 11
+            "expected": 11
         },
     ],
     "taskThree": [
         {
             "input": [3],
-            "output": 4    
+            "expected": 4    
         },
         {
             "input": [0],
-            "output": 10
+            "expected": 10
         },
         {
             "input": [-6],
-            "output": -8
+            "expected": -8
         },
     ],
     "taskFour": [
         {
             "input": [1, 2, -3],
-            "output": 2
+            "expected": 2
         },
         {
             "input": [1, 2, 3],
-            "output": 3
+            "expected": 3
         },
         {
             "input": [-1, -2, -3],
-            "output": 0
+            "expected": 0
         },
         {
             "input": [-4, -1, 2],
-            "output": 1
+            "expected": 1
         },
     ],
     "taskFive": [
         {
             "input": [1, 2, 3],
-            "output": 0
+            "expected": 0
         },
         {
             "input": [-1, -2, -3],
-            "output": 3
+            "expected": 3
         },
         {
             "input": [-4, -1, 2],
-            "output": 2
+            "expected": 2
         },
     ],
     "taskSix": [
         {
             "input": [1, 2, 3],
-            "output": "there are a lot of positive numbers"
+            "expected": "there are a lot of positive numbers"
         },
         {
             "input": [-1, -2, -3],
-            "output": "there are a lot of negative numbers"
+            "expected": "there are a lot of negative numbers"
         },
         {
             "input": [-4, -1, 2],
-            "output": "there are a lot of negative numbers"
+            "expected": "there are a lot of negative numbers"
         },
         {
             "input": [1, 2, -3],
-            "output": "there are a lot of positive numbers"
+            "expected": "there are a lot of positive numbers"
         },
     ],
     "taskSeven": [
         {
             "input": [25],
-            "output": "positive odd number"
+            "expected": "positive odd number"
         },
         {
             "input": [0],
-            "output": "the number is zero"
+            "expected": "the number is zero"
         },
         {
             "input": [-4],
-            "output": "negative even number"
+            "expected": "negative even number"
         },
         {
             "input": [1],
-            "output": "positive odd number"
+            "expected": "positive odd number"
         },
         {
             "input": [-9],
-            "output": "negative odd number"
+            "expected": "negative odd number"
         },
         {
             "input": [10],
-            "output": "positive even number"
+            "expected": "positive even number"
         }
     ],
     "taskEight": [
         {
             "input": [12],
-            "output": "two-digit even number"
+            "expected": "two-digit even number"
         },
         {
             "input": [77],
-            "output": "two-digit odd number"
+            "expected": "two-digit odd number"
         },
         {
             "input": [123],
-            "output": "three-digit odd number"
+            "expected": "three-digit odd number"
         },
         {
             "input": [100],
-            "output": "three-digit even number"
+            "expected": "three-digit even number"
         },
     ],
     "taskNine": [
         {
             "input": [54],
-            "output": True
+            "expected": True
         },
         {
             "input": [21],
-            "output": True
+            "expected": True
         },
         {
             "input": [12],
-            "output": False
+            "expected": False
         },
         {
             "input": [23],
-            "output": False
+            "expected": False
         },
     ],
     "taskTen": [
         {
             "input": [11],
-            "output": "Cold"
+            "expected": "Cold"
         },
         {
             "input": [21],
-            "output": "Normal"
+            "expected": "Normal"
         },
         {
             "input": [-1],
-            "output": "Freezing"
+            "expected": "Freezing"
         },
         {
             "input": [31],
-            "output": "Hot"
+            "expected": "Hot"
         },
         {
             "input": [41],
-            "output": "Very Hot"
+            "expected": "Very Hot"
         },
         {
             "input": [2],
-            "output": "Very Cold"
+            "expected": "Very Cold"
         }
     ],
 }
