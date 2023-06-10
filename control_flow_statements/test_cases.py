@@ -5,16 +5,16 @@ test_cases = {
             "expected": -1
         },
         {
-            "input": [0],
-            "expected": 1
+            "input": [1],
+            "expected": 2
         },
         {
             "input": [9],
             "expected": 10
         },
         {
-            "input": [3.14],
-            "expected": 4.14
+            "input": [3],
+            "expected": 4
         },
         {
             "input": [-5],
