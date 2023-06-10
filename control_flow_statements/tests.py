@@ -76,13 +76,13 @@ task = [
     "taskNine",
     "taskTen",]
 
-q1 = TestCaseRunner(task_name="0f01", homework_name="control_flow_statements", task=task[0])
-q2 = TestCaseRunner(task_name="0f02", homework_name="control_flow_statements", task=task[1])
-q3 = TestCaseRunner(task_name="0f03", homework_name="control_flow_statements", task=task[2])
-q4 = TestCaseRunner(task_name="0f04", homework_name="control_flow_statements", task=task[3])
-q5 = TestCaseRunner(task_name="0f05", homework_name="control_flow_statements", task=task[4])
-q6 = TestCaseRunner(task_name="0f06", homework_name="control_flow_statements", task=task[5])
-q7 = TestCaseRunner(task_name="0f07", homework_name="control_flow_statements", task=task[6])
-q8 = TestCaseRunner(task_name="0f08", homework_name="control_flow_statements", task=task[7])
-q9 = TestCaseRunner(task_name="0f09", homework_name="control_flow_statements", task=task[8])
-q10 = TestCaseRunner(task_name="0f10", homework_name="control_flow_statements", task=task[9])
+q1 = TestCaseRunner(task_name="if01", homework_name="control_flow_statements", task=task[0])
+q2 = TestCaseRunner(task_name="if02", homework_name="control_flow_statements", task=task[1])
+q3 = TestCaseRunner(task_name="if03", homework_name="control_flow_statements", task=task[2])
+q4 = TestCaseRunner(task_name="if04", homework_name="control_flow_statements", task=task[3])
+q5 = TestCaseRunner(task_name="if05", homework_name="control_flow_statements", task=task[4])
+q6 = TestCaseRunner(task_name="if06", homework_name="control_flow_statements", task=task[5])
+q7 = TestCaseRunner(task_name="if07", homework_name="control_flow_statements", task=task[6])
+q8 = TestCaseRunner(task_name="if08", homework_name="control_flow_statements", task=task[7])
+q9 = TestCaseRunner(task_name="if09", homework_name="control_flow_statements", task=task[8])
+q10 = TestCaseRunner(task_name="if10", homework_name="control_flow_statements", task=task[9])
